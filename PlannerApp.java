@@ -20,6 +20,6 @@ public class PlannerApp {
 
         // экспортируем данные в файл
         ExportData<CsvFormat> ex = new ExportData<>(new CsvFormat());
-        ex.exporter(convertData);
+        // ex.exporter(convertData);
     }
 }
